@@ -11,11 +11,9 @@ function getBag(req, res) {
   if (bag) {
     res.send(bag);
   } else {
-    res
-      .send({
-        error: "No bag was found",
-      })
-      .status(404);
+    res.status(404).send({
+      error: "No bag was found",
+    });
   }
 }
 
