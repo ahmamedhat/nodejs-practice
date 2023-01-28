@@ -5,6 +5,7 @@
   "author": "ahmadmed7at77 <ahmadmed7at77@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "start": "node server.js",
     "watch": "nodemon server.js",
     "test-watch": "jest --watch",
     "test": "jest"
